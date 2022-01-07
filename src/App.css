@@ -2,6 +2,7 @@
   text-align: center;
 }
 
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -10,5 +11,61 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.urlinput{
+  width: 200px;
+  margin: 20px 20px 10px 20px;
+  height: 25px;
+  font-family: 'Ubuntu Mono', sans-serif;
+  border-radius: 20px;
+  border-color: #282c34;
+  font-size: 20px;
+}
+
+.urlinput:hover{
+  background-color: #282c34;
+  color: white;
+}
+
+.durationSelector{
+  width: 150px;
+  height: 35px;
+  font-family: 'Ubuntu Mono',serif;
+  font-size: 18px;
+  margin-bottom: 10px;
+  border-radius: 50px;
+  border-color: #282c34;
+}
+
+.durationSelector:hover{
+  background-color: #282c34;
+  color: white;
+}
+
+.shorten { 
+  margin-top: 10px;
+  height: 35px;
+  width: 150px;
+  border-radius: 20px;
+  border-color: #282c34;
+  font-family: 'Ubuntu Mono';
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.shorten:hover{
+  background-color: #282c34;
+  color: white;
+}
+
+.shortenedurl {
+  color: #282c34;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.shortenedurl:hover{
   color: white;
 }
